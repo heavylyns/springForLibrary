@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<!-- dataSource-kolas3 -->
+    <bean id="dataSource-kolas3" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+		<property name="url" value="jdbc:oracle:thin:@211.253.88.161:1521:k3" />
+		<property name="username" value="kolas"/>
+		<property name="password" value="eco_kolas3#"/>
+		<property name="maxActive" value="20"/>
+		<property name="maxIdle" value="10"/>
+		<property name="initialSize" value="2"/>
+		<property name="validationQuery" value="select 1 from dual"/>
+	</bean>
+
+</beans>

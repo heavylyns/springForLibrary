@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<default query=""/>
+	<value1 query=" field1:value1*"/>
+	<value2 query=" field2:value2*"/>
+	<value3 query=" field3:value3*"/>
+	<value1-1 query=" field1:value1"/>
+	<value2-1 query=" field2:value2"/>
+	<value3-1 query=" field3:value3"/>
+	<buhovalue1 query=" buho1:buhovalue1"/>
+	<buhovalue2 query=" buho2:buhovalue2"/>
+	<buhovalue3 query=" aon5 UNC:buhovalue3"/>
+	<buhovalue4 query=" aon6 GOC:buhovalue4"/>
+	<pubyear query=" AND YR:startyear;endyear"/>
+	<vod query=" AND WY:vod"/>
+	<won query=" OR WY:won"/>
+	<cd query=" OR WY:cd"/>
+	<textlang query=" AND TXL:textlang"/>
+	<simplelang query=" AND SML:simplelang"/>
+	<dbt query=" AND DBT:dbt"/>
+	<form01 query=" AND MC:GM"/>
+	<form02 query=" AND MC:DM OR MC:DP"/>
+	<form03 query=" AND MC:HA"/>
+	<form04 query=" AND MC:HR"/>
+	<form05 query=" AND MC:CA"/>
+	<form06 query=" AND (UC:JU OR UC:ES OR UC:MS OR UC:HS)"/>
+	<form07 query=" AND MC:MA"/>
+	<form08 query=" AND MC:NP"/>
+	<form09 query=" AND ((FC:CF OR FC:MU OR FC:VM OR FC:NP) OR (FC:TX AND (MEC:XH OR MEC:XA OR MEC:XZ)))"/>
+	<form10 query=" AND MEC:KA"/>	
+	<local query=" AND PL:local"/>
+	<mgc query=" AND MGC:mgc"/>
+	<new_start query=" HD:new_start;2099/01/01"/>
+	<reg_code query=" AND RC:reg_code"/>	
+	<ten_new query=" AND KDC:ten_new*"/>
+		
+	<nobook query="SSC:nobook"/>
+	<nobooksort query="RK DESC"/>
+	<nobookmsa query=""/>
+	<nobooklimitpage query="10"/>
+	<nobookstartpage query="1"/>
+	<nobookmode query="0"/>
+	<nobookjongbook query=""/>
+	
+</config>

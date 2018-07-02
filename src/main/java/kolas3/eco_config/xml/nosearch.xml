@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<noloancode value="noting/"/>
+	<nosearchcode value="noting/"/>
+	<noloancodeplace value="noting/"/>
+	<nosearchcodeplace value="noting/"/>
+	<deliverynoloancode value="noting/"/>
+	<deliverynosearchcode value="noting/"/>
+	<deliverynoloancodeplace value="응암청소년독서실/"/>
+	<deliverynosearchcodeplace value="noting/"/>
+</config>
